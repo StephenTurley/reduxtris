@@ -52,7 +52,7 @@ import { createStore } from 'redux';
 ```
 
 ```
-λ .\node_modules\.bin\webpack
+λ ./node_modules/.bin/webpack
 SyntaxError: Unexpected token export
 ```
 
@@ -70,7 +70,7 @@ module.exports = {
 ```
 
 ```
-λ .\node_modules\.bin\webpack
+λ ./node_modules/.bin/webpack
 Invalid configuration object. Webpack has been initialised using a configuration object that does not match the API schema.
 configuration.output has an unknown property 'destination'. These properties are valid:
 object { auxiliaryComment?, chunkFilename?, crossOriginLoading?, devtoolFallbackModuleFilenameTemplate?, devtoolLineToLine?, devtoolModuleFilenameTemplate?, filename?, hashDigest?, hashDigestLength?, hashFunction?, hotUpdateChunkFilename?, hotUpdateFunction?, hotUpdateMainFilename?, jsonpFunction?, library?, libraryTarget?, path?, pathinfo?, publicPath?, sourceMapFilename?, sourcePrefix?, strictModuleExceptionHandling?, umdNamedDefine? }
@@ -91,7 +91,7 @@ module.exports = {
 ```
 
 ```
-λ .\node_modules\.bin\webpack
+λ ./node_modules/.bin/webpack
 Hash: 1713af37510b86c385e4
 Version: webpack 2.2.1
 Time: 250ms
